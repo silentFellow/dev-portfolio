@@ -7,3 +7,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.full {
+  @apply w-full h-full;
+}
+
+.col {
+  @apply flex flex-col;
+}
+
+.center {
+  @apply flex items-center justify-center;
+}
+
+.screen {
+  @apply w-screen h-screen;
+}
