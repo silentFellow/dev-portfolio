@@ -19,6 +19,7 @@ export default {
           "100": "#000319",
           DEFAULT: "#000",
         },
+        purple: "#CBACF9",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {

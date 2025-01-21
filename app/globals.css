@@ -8,22 +8,6 @@
   box-sizing: border-box;
 }
 
-.full {
-  @apply w-full h-full;
-}
-
-.col {
-  @apply flex flex-col;
-}
-
-.center {
-  @apply flex items-center justify-center;
-}
-
-.screen {
-  @apply w-screen h-screen;
-}
-
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -89,8 +73,34 @@
   }
 }
 
-.green-pink-gradient {
-  background: "#00cea8";
-  background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
-  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+@layer utilities {
+  .full {
+    @apply w-full h-full;
+  }
+
+  .col {
+    @apply flex flex-col;
+  }
+
+  .center {
+    @apply flex items-center justify-center;
+  }
+
+  .screen {
+    @apply w-screen h-screen;
+  }
+
+  .heading {
+    @apply font-bold text-4xl md:text-5xl text-center;
+  }
+
+  .black-gradient {
+    background: linear-gradient(90deg, #161a31 0%, #06091f 100%);
+  }
+
+  .green-pink-gradient {
+    background: "#00cea8";
+    background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+    background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+  }
 }
