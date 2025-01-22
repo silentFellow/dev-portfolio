@@ -47,3 +47,36 @@ export const workExperience = [
     thumbnail: "/images/exp4.svg",
   },
 ];
+
+export const projects = [
+  {
+    id: 1,
+    title: "NeoURL - URL Shortener",
+    desc: "NeoURL is a powerful URL shortener that makes managing your links easy and efficient.",
+    img: "/images/project1.svg",
+    iconLists: ["/images/go.svg", "/images/htmx.svg", "/images/tailwindcss.svg"],
+    link: "https://neourl.onrender.com",
+  },
+  {
+    id: 2,
+    title: "Abstract UI - NPM Library",
+    desc: "Abstract UI is a versatile NPM library that provides a collection of reusable UI components, designed to streamline your development process.",
+    img: "/images/project2.svg",
+    iconLists: [
+      "/images/react.svg",
+      "/images/next.svg",
+      "/images/tailwindcss.svg",
+      "/images/typescript.svg",
+      "/images/storybook.svg",
+    ],
+    link: "https://www.npmjs.com/package/@silentfellow/abstract-ui",
+  },
+  {
+    id: 3,
+    title: "NeoConnect - Social Forum",
+    desc: "Join NeoConnect, a vibrant social forum where you can engage in discussions, share ideas, and connect with like-minded individuals.",
+    img: "/images/project3.svg",
+    iconLists: ["/images/next.svg", "/images/tailwindcss.svg", "/images/typescript.svg"],
+    link: "https://neoconnect-rose.vercel.app",
+  },
+];

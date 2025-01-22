@@ -16,8 +16,13 @@ export default {
     extend: {
       colors: {
         black: {
-          "100": "#000319",
           DEFAULT: "#000",
+          "100": "#000319",
+        },
+        white: {
+          DEFAULT: "#FFF",
+          100: "#BEC1DD",
+          200: "#C1C2D3",
         },
         purple: "#CBACF9",
         background: "hsl(var(--background))",
