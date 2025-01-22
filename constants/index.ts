@@ -80,3 +80,86 @@ export const projects = [
     link: "https://neoconnect-rose.vercel.app",
   },
 ];
+
+export const skillItem = [
+  {
+    imgSrc: "/images/go.svg",
+    label: "Go",
+    desc: "Web Server And CLI",
+  },
+  {
+    imgSrc: "/images/typescript.svg",
+    label: "TypeScript",
+    desc: "Interaction",
+  },
+  {
+    imgSrc: "/images/python.svg",
+    label: "Python",
+    desc: "Scripting and Automation",
+  },
+  {
+    imgSrc: "/images/react.svg",
+    label: "React",
+    desc: "Framework",
+  },
+  {
+    imgSrc: "/images/next.svg",
+    label: "NextJs",
+    desc: "Meta-Framework",
+  },
+  {
+    imgSrc: "/images/tailwindcss.svg",
+    label: "TailwindCSS",
+    desc: "User Interface",
+  },
+  {
+    imgSrc: "/images/git.svg",
+    label: "Git",
+    desc: "Version Control",
+  },
+  {
+    imgSrc: "/images/markdown.svg",
+    label: "Markdown",
+    desc: "Documentation and Note-taking",
+  },
+  {
+    imgSrc: "/images/node.svg",
+    label: "NodeJS",
+    desc: "Web Server",
+  },
+  {
+    imgSrc: "/images/htmx.svg",
+    label: "HTMX",
+    desc: "Server Based Web Interface",
+  },
+  {
+    imgSrc: "/images/mongodb.svg",
+    label: "MongoDB",
+    desc: "Database",
+  },
+  {
+    imgSrc: "/images/postgresql.svg",
+    label: "PostgreSQL",
+    desc: "SQL Database",
+  },
+  {
+    imgSrc: "/images/linux.svg",
+    label: "Linux",
+    desc: "Operating System",
+  },
+  {
+    imgSrc: "/images/nvim.svg",
+    label: "Neovim",
+    desc: "Text Editor",
+  },
+  {
+    imgSrc: "/images/tmux.svg",
+    label: "Tmux",
+    desc: "Terminal Multiplexer",
+  },
+  {
+    imgSrc: "/images/cli.svg",
+    label: "Zsh",
+    desc: "Shell",
+  },
+];
