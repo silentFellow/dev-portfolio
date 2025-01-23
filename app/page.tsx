@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import Approach from "@/components/Approach";
 import Hero from "@/components/Hero";
 import RecentProjects from "@/components/RecentProjects";
 import Tech from "@/components/Tech";
@@ -13,6 +14,7 @@ const Home = () => {
         <WorkExperience />
         <RecentProjects />
         <Tech />
+        <Approach />
       </div>
     </main>
   );
