@@ -163,3 +163,18 @@ export const skillItem = [
     desc: "Shell",
   },
 ];
+
+export const socialMedia = [
+  {
+    id: 1,
+    img: "/images/github.svg",
+    label: "Git",
+    link: "https://www.github.com/silentFellow",
+  },
+  {
+    id: 2,
+    img: "/images/linkedin.svg",
+    label: "LinkedIn",
+    link: "https://www.linkedin.com/in/gowtham-s-a57490346/",
+  },
+];
