@@ -175,6 +175,6 @@ export const socialMedia = [
     id: 2,
     img: "/images/linkedin.svg",
     label: "LinkedIn",
-    link: "https://www.linkedin.com/in/gowtham-s-a57490346/",
+    link: "https://www.linkedin.com/in/silentFellow",
   },
 ];
