@@ -59,9 +59,17 @@ export const projects = [
   },
   {
     id: 2,
+    title: "Cred - A CLI Based Password and environment manager",
+    desc: "Cred is a CLI tool built for managing passwords and environment variables. It uses GPG for secure data encryption and store data in Git repository.",
+    img: "/images/project2.svg",
+    iconLists: ["/images/go.svg"],
+    link: "https://github.com/silentFellow/cred.git",
+  },
+  {
+    id: 3,
     title: "Abstract UI - NPM Library",
     desc: "Abstract UI is a versatile NPM library that provides a collection of reusable UI components, designed to streamline your development process.",
-    img: "/images/project2.svg",
+    img: "/images/project3.svg",
     iconLists: [
       "/images/react.svg",
       "/images/next.svg",
@@ -72,12 +80,17 @@ export const projects = [
     link: "https://www.npmjs.com/package/@silentfellow/abstract-ui",
   },
   {
-    id: 3,
-    title: "NeoConnect - Social Forum",
-    desc: "Join NeoConnect, a vibrant social forum where you can engage in discussions, share ideas, and connect with like-minded individuals.",
-    img: "/images/project3.svg",
-    iconLists: ["/images/next.svg", "/images/tailwindcss.svg", "/images/typescript.svg"],
-    link: "https://neoconnect-rose.vercel.app",
+    id: 4,
+    title: "NeoBlog - Blogging Platform",
+    desc: "NeoBlog is a simple yet powerful application for creating blogs. It is built using Next.js and includes features such as authentication, pre-built components, and rich text editing.",
+    img: "/images/project4.svg",
+    iconLists: [
+      "/images/react.svg",
+      "/images/next.svg",
+      "/images/tailwindcss.svg",
+      "/images/typescript.svg",
+    ],
+    link: "https://neoblog.onrender.com",
   },
 ];
 
