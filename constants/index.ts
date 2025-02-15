@@ -90,7 +90,7 @@ export const projects = [
       "/images/tailwindcss.svg",
       "/images/typescript.svg",
     ],
-    link: "https://neoblog.onrender.com",
+    link: "https://neoblog-ruddy.vercel.app",
   },
 ];
 
