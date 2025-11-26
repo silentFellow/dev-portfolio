@@ -55,21 +55,21 @@ export const projects = [
     desc: "NeoURL is a powerful URL shortener that makes managing your links easy and efficient.",
     img: "/images/project1.svg",
     iconLists: ["/images/go.svg", "/images/htmx.svg", "/images/tailwindcss.svg"],
-    link: "https://neourl.onrender.com",
+    link: "http://43.204.114.237:8080",
   },
   {
     id: 2,
     title: "Cred - A CLI Based Password and environment manager",
     desc: "Cred is a CLI tool built for managing passwords and environment variables. It uses GPG for secure data encryption and store data in Git repository.",
-    img: "/images/project2.svg",
+    img: "/images/project2.png",
     iconLists: ["/images/go.svg"],
-    link: "https://github.com/silentFellow/cred.git",
+    link: "https://cred.silentfellow.dev/book",
   },
   {
     id: 3,
     title: "Abstract UI - NPM Library",
     desc: "Abstract UI is a versatile NPM library that provides a collection of reusable UI components, designed to streamline your development process.",
-    img: "/images/project3.svg",
+    img: "/images/project3.png",
     iconLists: [
       "/images/react.svg",
       "/images/next.svg",
@@ -83,7 +83,7 @@ export const projects = [
     id: 4,
     title: "NeoBlog - Blogging Platform",
     desc: "NeoBlog is a simple yet powerful application for creating blogs. It is built using Next.js and includes features such as authentication, pre-built components, and rich text editing.",
-    img: "/images/project4.svg",
+    img: "/images/project4.png",
     iconLists: [
       "/images/react.svg",
       "/images/next.svg",
@@ -186,6 +186,12 @@ export const socialMedia = [
   },
   {
     id: 2,
+    img: "/images/blogs.ico",
+    label: "Blogs",
+    link: "https://silentfellow.dev",
+  },
+  {
+    id: 3,
     img: "/images/linkedin.svg",
     label: "LinkedIn",
     link: "https://www.linkedin.com/in/silentFellow",
