@@ -188,7 +188,7 @@ export const socialMedia = [
     id: 2,
     img: "/images/blogs.ico",
     label: "Blogs",
-    link: "https://silentfellow.dev",
+    link: "https://blogs.silentfellow.dev",
   },
   {
     id: 3,
