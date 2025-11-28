@@ -63,7 +63,7 @@ export const projects = [
     desc: "Cred is a CLI tool built for managing passwords and environment variables. It uses GPG for secure data encryption and store data in Git repository.",
     img: "/images/project2.png",
     iconLists: ["/images/go.svg"],
-    link: "https://cred.silentfellow.dev/book",
+    link: "https://cred.silentfellow.dev",
   },
   {
     id: 3,
