@@ -6,6 +6,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { usePathname } from 'next/navigation';
 import { useRef, useState } from 'react';
 import { windows } from '@/constants';
+import { scrollToTarget } from '@/engine';
 import { usePage } from '@/engine/next';
 
 const time = () =>
@@ -84,6 +85,11 @@ export function StatusLine() {
             <a
               key={w.id}
               href={`#${w.id}`}
+              onClick={(e) => {
+                e.preventDefault();
+                history.pushState(null, '', `#${w.id}`);
+                scrollToTarget(`#${w.id}`);
+              }}
               data-win={w.id}
               data-no-transition
               className='sel'
