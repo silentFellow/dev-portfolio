@@ -1,13 +1,17 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
-import { TooltipProvider } from "@/components/ui/tooltip";
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
+import './globals.css';
+import { TooltipProvider } from '@/components/ui/tooltip';
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({
+  subsets: [
+    'latin',
+  ],
+});
 
 export const metadata: Metadata = {
   title: "Gowtham'S Portfolio",
-  description: "This is my(Gowtham.S) personal portfolio",
+  description: 'This is my(Gowtham.S) personal portfolio',
 };
 
 export default function RootLayout({
@@ -16,7 +20,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark" suppressHydrationWarning>
+    <html
+      lang='en'
+      className='dark'
+      suppressHydrationWarning
+    >
       <TooltipProvider>
         <body className={inter.className}>{children}</body>
       </TooltipProvider>
