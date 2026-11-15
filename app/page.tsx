@@ -1,23 +1,27 @@
-import About from '@/components/About';
-import Approach from '@/components/Approach';
-import Footer from '@/components/Footer';
-import Hero from '@/components/Hero';
-import RecentProjects from '@/components/RecentProjects';
-import Tech from '@/components/Tech';
-import WorkExperience from '@/components/WorkExperience';
+import { About } from '@/components/About';
+import { Blog } from '@/components/Blog';
+import { Contact } from '@/components/Contact';
+import { Experience } from '@/components/Experience';
+import { Hero } from '@/components/Hero';
+import { Misc } from '@/components/Misc';
+import { Projects } from '@/components/Projects';
+import { Resume } from '@/components/Resume';
+import { Skills } from '@/components/Skills';
 
-const Home = () => (
-  <main className='relative bg-black-100 col center overflow-hidden mx-auto sm:px-10 px-5'>
-    <div className='max-w-7xl w-full'>
+export const revalidate = 86_400; // blog feed + GitHub stars refresh daily
+
+export default function Home() {
+  return (
+    <>
       <Hero />
       <About />
-      <WorkExperience />
-      <RecentProjects />
-      <Tech />
-      <Approach />
-      <Footer />
-    </div>
-  </main>
-);
-
-export default Home;
+      <Experience />
+      <Projects />
+      <Skills />
+      <Resume />
+      <Blog />
+      <Misc />
+      <Contact />
+    </>
+  );
+}
