@@ -58,6 +58,12 @@ export const socialMedia = [
     href: 'https://blogs.silentfellow.dev',
     icon: glyph.rss,
   },
+  {
+    label: 'Reddit',
+    handle: '_silent_fellow',
+    href: 'https://www.reddit.com/user/_silent_fellow/',
+    icon: glyph.external,
+  },
 ];
 
 export const hero = {
