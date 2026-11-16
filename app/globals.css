@@ -1029,6 +1029,10 @@ html.seen #loader,
 .bar__wins a[aria-current] .bar__flag {
   color: var(--c-accent);
 }
+.bar__wins a[aria-current]:is(:hover, :focus-visible) {
+  color: var(--c-bg);
+  background: var(--c-accent);
+}
 .bar__wins a[aria-current]:is(:hover, :focus-visible) .bar__flag {
   color: inherit;
 }
